@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import PageFilms from './components/Sylvain/Pagefilms';
+import PageFilms from './Components/Sylvain/Pagefilms';
 
 function App() {
   return (
