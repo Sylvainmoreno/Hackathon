@@ -24,4 +24,20 @@ const QuestionnaireData = [
     
 ]
 
-export default QuestionnaireData;
+
+/*{
+id: 3,
+question: `Êtes vous sensible aux esprits qui peuvent nous entourer ?`,    
+options:{
+    reponse: `Oui carrément !`,
+    value: 'blue',
+    
+    reponse: `Ça me fait ni chaud ni froid...`,
+    value: 'rose',      
+    
+    
+    reponse:`Je suis plutôt terre à terre`,
+    value: 'pink',}
+},*/
+
+export default QuestionnaireData
