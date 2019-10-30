@@ -37,6 +37,8 @@ const PageFilms = (props) => {
 
             : movies.filter((movie) => movie.title === 'Shelter' || movie.title == 'Vanishing_on_7th_Street' || movie.title == 'Scream' || movie.title == 'Scream_2' || movie.title == 'Scream_3' || movie.title == 'Scream_4' || movie.title == 'Captifs' || movie.title == 'Derrière_les_murs' || movie.title == 'Le_Village_des_ombres' || movie.title == 'Territoires' || movie.title == 'Sept_jours_du_Talion_(Les)' || movie.title == 'Propriété_interdite' || movie.title == 'Hatchet' || movie.title == 'Hatchet_2' || movie.title == 'Friit_Vilt' || movie.title == 'Friit_Vilt_2' || movie.title == 'Friit_Vilt_3' || movie.title == 'Invasion_of_the_Not_Quite_Dead' || movie.title == 'Web_Cam' || movie.title == 'Cehennem').map((movie) =><CardFilms title={movie.title} image={movie.posterUrl}/> ) 
             }
+
+            <p>Test</p>
            
         </>
     )
