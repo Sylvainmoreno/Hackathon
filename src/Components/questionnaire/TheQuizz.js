@@ -2,6 +2,7 @@ import React from 'react';
 import Quiz from "./Quiz";
 import quizQuestions from '../quizData/quizQuestion';
 import Result from './Result';
+import PageFilms from '../Sylvain/Pagefilms';
 
 class TheQuizz extends React.Component{
   constructor(props) {
@@ -110,9 +111,14 @@ class TheQuizz extends React.Component{
   
   renderResult() {
     return (
+      <>
       <Result quizResult={this.state.result} />
+      <PageFilms props={this.state.result} />
+      </>
+
     );
   }
+
 
   render() {
     return (
