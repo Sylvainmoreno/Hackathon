@@ -18,7 +18,7 @@ body {
   position: relative;
   max-width: 800px;
   margin: 0 auto;
-  background: #fff;
+  background: brown;
   border-radius: 15px;
 }
 
@@ -31,6 +31,16 @@ body {
 /* Result Component */
 .result {
   padding: 1.5rem 2.5rem;
+  font-family: luckiest guy;
+  font-size: 46px;
+  text-align: center;
+}
+
+.affichagePerso{
+  font-family: luckiest guy;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
 }
 
 /* Quiz Component */
