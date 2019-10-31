@@ -1,3 +1,21 @@
+.allCarousel{
+   background: url('../../img/redbackground.jpg');
+   background-position: bottom;
+}
+
+button.chevronButton{
+   font-family: 'Luckiest Guy', cursive;
+   font-size: 5vw;
+   background: none;
+   border: none;
+   color: white;   
+}
+.characterNameQuoteBtn{
+   padding:10px 10px 10px 0px;
+   font-weight: bold;
+
+}
+
 img.character{
    width: 15vW;
    margin: 0;
@@ -7,27 +25,32 @@ div.card{
    width: 25vw;
    height: 'auto';
    font-size: 0.6vw;
-   background: lightgrey;
    margin: 20px;
    box-shadow: 2px 2px grey, -2px -2px grey;
    border-radius: 2%;
    display: flex;
    align-items: flex-start;
-
-
+   background: url('../../img/fear.jpg');
+   background-position: bottom;
 }
-   
+
 h1.characterName{
-   margin-top: 30px!important;
+   margin-top: 20px;
    margin: 0;
+   color: #B80D13;
 }
 
 p.characterQuote{
    align-self: center;
    flex-direction: column;
-   padding-top: 40px;
+   padding-top: 30px;
+   font-size: 1vw;
+   color: black;
 }
 
 button.characterBtn{
-   margin-top: 40px;
+   margin-top: 30px;
+   background-color: grey;
+   border: 2px solid #B80D13;
+   font-weight: bold;
 }
