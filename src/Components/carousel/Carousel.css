@@ -1,0 +1,62 @@
+.allCarousel{  
+   object-fit: cover;
+}
+
+button.chevronButton{
+   font-size: 5vw;
+   background: none;
+   border: none;
+   color: white;   
+}
+
+.characterNameQuoteBtn{
+   padding:10px 0px 10px 0px;
+   font-weight: bold;
+   display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+img.character{
+   width: 15vW;
+   margin: 0;
+}
+
+div.card{
+   width: 25vw;
+   height: 'auto';
+   font-size: 0.6vw;
+   margin: 20px;
+   box-shadow: 2px 2px grey, -2px -2px grey;
+   border-radius: 2%;
+   display: flex;
+   align-items: flex-start;
+   background: url('../../img/fear.jpg');
+   background-position: bottom;
+}
+
+h1.characterName{
+   margin: 0;
+   margin-top: 20px;
+   font-size: 1vw;
+   font-family: 'Luckiest Guy', cursive;
+   color: #B80D13;
+}
+
+p.characterQuote{
+   align-self: center;
+   flex-direction: column;
+   padding-top: 20px;
+   font-size: 1vw;
+   font-family: 'Staatliches', cursive;
+   color: black;
+}
+
+button.characterBtn{
+   margin: 20px 10px 0px 0px;
+   background-color: grey;
+   border: 2px solid #B80D13;
+   font-family: 'Staatliches', cursive;
+   font-weight: bold;
+   font-size: 1.2vw;
+}
