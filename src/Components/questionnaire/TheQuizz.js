@@ -116,6 +116,7 @@ class TheQuizz extends React.Component{
       <div className="listCard">
         <PageFilms props={this.state.result} />
       </div>
+
       </>
 
     );

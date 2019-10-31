@@ -7,6 +7,6 @@ const CardFilms = (props) => {
         <img className='displayCard' src = {props.image} alt={props.title}/>
         <p className='displayTitle'>{props.title}</p>
     </div>
-    )}
+   )}
 
 export default CardFilms;
