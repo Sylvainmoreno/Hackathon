@@ -20,6 +20,7 @@ body {
   margin: 0 auto;
   background: #fff;
   border-radius: 15px;
+  background: brown;
 }
 
 @media (min-width: 769px) {
@@ -31,6 +32,14 @@ body {
 /* Result Component */
 .result {
   padding: 1.5rem 2.5rem;
+  font-family: luckiest guy;
+  font-size: 46px;
+}
+.affichagePerso{
+  font-family: luckiest guy;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
 }
 
 /* Quiz Component */
@@ -44,12 +53,20 @@ body {
 .questionCount {
   padding: 1.5rem 2.5rem 0;
   font-size: 14px;
+  font-family: luckiest guy;
+}
+.numberOfQuestion{
+  font-family: Luckiest guy;
 }
 
 /* Question Component */
 .question {
   margin: 0;
   padding: 0.5rem 2.5rem 1.5rem 2.5rem;
+}
+.backQuizz{
+  padding: 40px;
+  background: url('../src/img/forest.jpg');
 }
 
 /* AnswerOption Component */
@@ -81,6 +98,7 @@ body {
   padding: 1.5rem 2.5rem 1.5rem 5rem;
   font-size: 16px;
   line-height: 1.5;
+  font-family: luckiest guy;
 }
 
 .radioCustomButton ~ .radioCustomLabel:before {

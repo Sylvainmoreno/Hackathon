@@ -1,6 +1,6 @@
 .allCarousel{
-   background: url('../../img/redbackground.jpg');
-   background-position: bottom;
+  
+   object-fit: cover;
 }
 
 button.chevronButton{

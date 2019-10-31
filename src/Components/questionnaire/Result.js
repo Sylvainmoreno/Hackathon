@@ -13,8 +13,8 @@ function Result(props) {
       transitionAppear
       transitionAppearTimeout={500}
     >
-      <div>
-        Ton Personnage est <strong>{props.quizResult}</strong>
+      <div className= "affichagePerso">
+        Ton Personnage est <strong className= "affichagePerso">{props.quizResult}</strong>
       </div>
     </CSSTransitionGroup>
   );
