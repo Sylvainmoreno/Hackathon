@@ -1,13 +1,13 @@
+
 import React from 'react';
-import MainQuestionnaire from './Components/questionnaire/MainQuestionnaire'
+import TheQuizz from './Components/questionnaire/TheQuizz';
 
-
-function App() {
-  return (
-    <div className="App">
-     <MainQuestionnaire />
+function App (){
+  return(
+    <div>
+      <TheQuizz />
     </div>
-  );
+  )
 }
 
 export default App;

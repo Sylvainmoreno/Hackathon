@@ -1,9 +1,0 @@
-.selected{
-    background: linear-gradient(to right, #74ebd5, #acb6e5)!important;
-}
-
-.options {
-    padding: 8px;
-    border: 2px solid black;
-    cursor: pointer;
-}
