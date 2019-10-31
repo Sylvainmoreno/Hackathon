@@ -1,8 +1,6 @@
 import React from 'react';
 import './cardFilm.css'
 
-
-
 const CardFilms = (props) => {
     return (
         <div className='cards'>
