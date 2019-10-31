@@ -1,8 +1,3 @@
-* {
-    font-family: murderer;
-    margin:0;
-}
-
 .halloHead {
     background-color: black;
     color: red;
@@ -13,19 +8,26 @@
     margin: 0;
 }
 
-h1 {
+h1.isActive, h1.isNotActive {
     font-size: 100px !important;
-    padding: 35px}
+    padding: 35px;
+    text-align: center;
+}
 
 img.supper {
     object-fit: cover;
     width: 100%;
     height: 250px;
-    
 }
+
 h1.isActive span.active{
     display: none;
 }
+
 h1.isNotActive span.notActive{
     display: none;
+}
+
+.draw{
+    background: black;
 }
