@@ -1,11 +1,21 @@
 import React from 'react'
-
-const CardFilms = (props) => {
+import {
+    Card, CardImg, CardBody,
+    CardTitle
+  } from 'reactstrap';
+  
+  const CardFilms = (props) => {
     return (
-    <div className = 'Card'>
-        <img src = {props.image} alt={props.title}/>
-        <p>{props.title}</p>
-    </div>
-    )}
+      <div>
+        <Card>
+          <CardImg top width="100%" src={props.image} alt={props.title} />
+          <CardBody>
+            <CardTitle>{props.title}</CardTitle>
+          </CardBody>
+        </Card>
+      </div>
+    );
+  };
+  
+  export default CardFilms;
 
-export default CardFilms;

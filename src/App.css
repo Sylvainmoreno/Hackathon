@@ -2,3 +2,8 @@
 *{
   font-family: murderer;  
 }
+
+.card {
+    display: flex !important;
+    flex-direction: column !important;
+}
