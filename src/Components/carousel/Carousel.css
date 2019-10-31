@@ -1,7 +1,5 @@
-.allCarousel{
-   background-position: bottom;
+.allCarousel{  
    object-fit: cover;
-
 }
 
 button.chevronButton{

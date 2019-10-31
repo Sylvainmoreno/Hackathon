@@ -125,8 +125,7 @@ class TheQuizz extends React.Component{
 
   render() {
     return (
-      <div className="backQuizz">
-         
+      <div className="backQuizz">        
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
     )
