@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import PageFilms from './Components/Sylvain/Pagefilms';
+import Navbar from './components/Sylvain/header/Header';
+
 
 function App() {
   return (
     <div className="App">
-      <PageFilms />
+      <Navbar />
     </div>
   );
 }
