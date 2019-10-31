@@ -17,6 +17,7 @@ function App() {
       <ItemsCarousel />
       <TheQuizz />
       <Citrouille />
+      </div>
     </div>
   )
 }
