@@ -2,3 +2,8 @@
 *{
   font-family: murderer;  
 }
+
+.backForest{
+  background: url('../src/img/redbackground.jpg');
+  background-repeat: round;
+}

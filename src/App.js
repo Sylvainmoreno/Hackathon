@@ -10,8 +10,10 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <div className='backForest'>
       <ItemsCarousel />
       <TheQuizz />
+      </div>
     </div>
   )
 }
