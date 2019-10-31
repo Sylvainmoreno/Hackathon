@@ -111,9 +111,11 @@ class TheQuizz extends React.Component{
   
   renderResult() {
     return (
-      <>
+      <>  
       <Result quizResult={this.state.result} />
-      <PageFilms props={this.state.result} />
+      <div className="listCard">
+        <PageFilms props={this.state.result} />
+      </div>
       </>
 
     );
@@ -122,10 +124,8 @@ class TheQuizz extends React.Component{
 
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
+      <div className="backQuizz">
          
-        </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
     )
