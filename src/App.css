@@ -3,7 +3,14 @@
   font-family: murderer;  
 }
 
-.card {
-    display: flex !important;
-    flex-direction: column !important;
+.backForest{
+  background: url('../src/img/forest.jpg');
+  background-repeat: round;
+}
+.listCard{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
 }
