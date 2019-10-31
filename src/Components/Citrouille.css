@@ -1,0 +1,93 @@
+body{
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  }
+  .pumpkin-button{
+    width: 40px;
+    height: 50px;
+    background-color: #F98130;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+  }
+  .pumpkin-button::before{
+    content: "";
+    display: block;
+    width: 67px;
+    height: 50px;
+    background: rgb(255,155,50);
+    background: linear-gradient(90deg, rgba(255,155,50,1) 0%,
+    rgba(255,155,50,1) 40%, rgba(240,100,0,1) 60%,
+    rgba(240,100,0,1) 100%);
+    border-radius: 50%;
+    position: absolute;
+    z-index: -2;
+    left: -16px;
+  }
+  .pumpkin-button::after{
+    content: "";
+    display: block;
+    border-left: 20px solid #0AA510;
+    border-top: 20px solid transparent;
+    position: absolute;
+    top: -16px;
+    left: 17px;
+    transform: rotate(15deg);
+    z-index: -3;
+  }
+  i{
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .rest{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 19px;
+    z-index: -5;
+    overflow: hidden;
+  }
+  .rest::after{
+    box-sizing: border-box;
+    content: "Like";
+    width: 150px;
+    /*height: 100px;*/
+    display: block;
+    background-color: #FF9B32;
+    border-radius: 0 10px 40px 0;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    padding: 30px 0 0 30px;
+    position: absolute;
+    left: -180px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .pumpkin-button:hover .rest::after{
+    transform: translateX(180px);
+  }
+  .but2{top: 120px;}
+  .but3{top: 220px;}
+  .but4{top: 320px;}
+  .but2 .rest::after{content:"Sub";}
+  .but3 .rest::after, .but4 .rest::after{content:"Follow";}
+  .contener{
+    position: fixed;
+    top: 20%;
+    width: auto;
+    height: 120px;
+  
+    transform: translate(-50%, -50%);
+  }
+  
+  
