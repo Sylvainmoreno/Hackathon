@@ -135,7 +135,7 @@ const quizQuestions = [
                 content: "Sans hésiter, les réalisateurs de maintenant n'ont plus ce talent inné"
             },
             {
-                type: "Le marathonnien",
+                type: "Le Marathonnien",
                 content: "Films anciens ? Sérieusement qui regarde ça ?"
             },
             {
@@ -156,7 +156,7 @@ const quizQuestions = [
                 content: "Oh que oui ! Et les films d'horreur pourraient disparaître à jamais !"
             },
             {
-                type: "Le sanguinnaire",
+                type: "Le sanguinaire",
                 content: "Inutile, à quoi se résumerait le film d'horreur alors ?"
             },
             {
