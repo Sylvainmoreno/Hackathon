@@ -1,17 +1,19 @@
+
 import React from 'react';
 import './App.css';
-import Navbar from './components/Sylvain/header/Header';
+import Navbar from './Components/Sylvain/Header/Header';
 import ItemsCarousel from './Components/carousel/Carousel'
+import TheQuizz from './Components/questionnaire/TheQuizz';
 
-/* adaaefaefafaeffea
- */
+
 function App() {
   return (
     <div className="App">
       <Navbar />
       <ItemsCarousel />
+      <TheQuizz />
     </div>
-  );
+  )
 }
 
 export default App;
