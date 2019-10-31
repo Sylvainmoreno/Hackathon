@@ -91,7 +91,7 @@ class TheQuizz extends React.Component{
     if (result.length === 1) {
       this.setState({ result: result[0] });
     } else {
-      this.setState({ result: 'Tu es trop compliqué donc va te faire enculé' });
+      this.setState({ result: 'Ta personnalité est complexe! Plusieurs avatars correspondent à ton caractère...Tu peux jeter un coup d'/'oeil au panel de films proposés !' });
     }
   }
 
