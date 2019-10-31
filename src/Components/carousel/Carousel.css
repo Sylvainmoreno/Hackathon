@@ -4,16 +4,18 @@
 }
 
 button.chevronButton{
-   font-family: 'Luckiest Guy', cursive;
    font-size: 5vw;
    background: none;
    border: none;
    color: white;   
 }
-.characterNameQuoteBtn{
-   padding:10px 10px 10px 0px;
-   font-weight: bold;
 
+.characterNameQuoteBtn{
+   padding:10px 0px 10px 0px;
+   font-weight: bold;
+   display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 img.character{
@@ -35,22 +37,28 @@ div.card{
 }
 
 h1.characterName{
-   margin-top: 20px;
    margin: 0;
+   margin-top: 20px;
+   font-size: 1vw;
+   font-family: 'Luckiest Guy', cursive;
    color: #B80D13;
 }
 
 p.characterQuote{
    align-self: center;
    flex-direction: column;
-   padding-top: 30px;
+   padding-top: 20px;
    font-size: 1vw;
+   font-family: 'Staatliches', cursive;
    color: black;
 }
 
 button.characterBtn{
-   margin-top: 30px;
+   margin: 20px 10px 0px 0px;
    background-color: grey;
    border: 2px solid #B80D13;
+   font-family: 'Staatliches', cursive;
+
    font-weight: bold;
+   font-size: 1.2vw;
 }
