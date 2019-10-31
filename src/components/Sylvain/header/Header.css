@@ -1,5 +1,6 @@
 * {
     font-family: murderer;
+    margin:0;
 }
 
 .halloHead {
@@ -21,4 +22,10 @@ img.supper {
     width: 100%;
     height: 250px;
     
+}
+h1.isActive span.active{
+    display: none;
+}
+h1.isNotActive span.notActive{
+    display: none;
 }
