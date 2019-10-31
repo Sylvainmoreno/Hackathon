@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import './cardFilm.css'
+
+
 
 const CardFilms = (props) => {
     return (
-        <div className='Cards'>
-            <div className = 'Card'>
+        <div className='cards'>
+            <div className = 'card'>
                 <img className= 'displayCard' src = {props.image} alt={props.title}/>
-                <p>{props.title}</p>
+                <p className= 'displayTitle'>{props.title}</p>
             </div>
         </div>
     )}
