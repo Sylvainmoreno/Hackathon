@@ -17,7 +17,6 @@ const PageFilms = (props) => {
     const getApi = () => {
         axios.get('https://hackathon-wild-hackoween.herokuapp.com/movies')
             .then(response => setMovies(response.data.movies))
-            console.log(movies)
         }
 
         return (

@@ -113,7 +113,7 @@ class TheQuizz extends React.Component{
     return (
       <>
       <Result quizResult={this.state.result} />
-      <PageFilms props={this.state.result} />
+      <PageFilms props={this.state.result} /> 
       </>
 
     );
