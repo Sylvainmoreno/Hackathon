@@ -3,6 +3,7 @@
   font-family: murderer;  
 }
 
+
 .backForest{
   background: url('../src/img/forest.jpg');
   background-repeat: round;
@@ -12,5 +13,4 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
