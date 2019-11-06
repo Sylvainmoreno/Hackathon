@@ -125,7 +125,8 @@ class TheQuizz extends React.Component{
 
   render() {
     return (
-      <div className="backQuizz">        
+      <div className="backQuizz">   
+      <h1 className='titleQ'>Remplis ce questionnaire pour savoir quel personnage te correspond</h1>     
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
     )

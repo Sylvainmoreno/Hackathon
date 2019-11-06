@@ -1,3 +1,10 @@
+.container{
+    font-family: 'Staatliches', cursive;
+}
+h2.question {
+    font-family: 'Staatliches', cursive;
+    font-size: 2vw;
+}
 .cards {
     display: flex;
     flex-direction: row;
@@ -11,16 +18,22 @@
 }
 
 .displayTitle{
-    font-family: luckiest guy;
-    font-size: 2vw;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5vw;
     color: white;
 }
 
-.questionCount span{
-    font-family: luckiest guy;
+.questionCount, .questionCount span{
+    font-family: 'Staatliches', cursive;
     font-size: 1vw;
+    font-weight: bold;
 }
 
+label.radioCustomLabel{
+    font-family: 'Staatliches', cursive;
+    font-size: 1.2vw;
+    text-align: center;
+}
 .backQuizz{
     padding-bottom: 5px;
     background: none!important;
