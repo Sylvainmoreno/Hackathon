@@ -14,8 +14,8 @@ function App() {
       <Navbar />
 
       <div className='backForest'>
-      <ItemsCarousel />
       <TheQuizz />
+      <ItemsCarousel />
       <Citrouille />
       </div>
     </div>

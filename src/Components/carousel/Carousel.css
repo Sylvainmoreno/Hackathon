@@ -22,7 +22,7 @@ img.character{
    margin: 0;
 }
 
-div.card{
+div.cardCharacter{
    width: 25vw;
    height: 'auto';
    font-size: 0.6vw;
@@ -38,8 +38,8 @@ div.card{
 h1.characterName{
    margin: 0;
    margin-top: 20px;
-   font-size: 1vw;
-   font-family: 'Luckiest Guy', cursive;
+   font-size: 1.5vw;
+   font-family: 'Staatliches', cursive;
    color: #B80D13;
 }
 
