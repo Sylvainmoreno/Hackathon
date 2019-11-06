@@ -3,11 +3,11 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 .card{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
+    flex-direction: column;
+    text-align: center;
 }
 
 .displayTitle{
@@ -15,10 +15,14 @@
     font-size: 2vw;
     color: white;
 }
+
 .questionCount span{
     font-family: luckiest guy;
     font-size: 1vw;
 }
+
 .backQuizz{
     padding-bottom: 5px;
+    background: none!important;
+
 }
